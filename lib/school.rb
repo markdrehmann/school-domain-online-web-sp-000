@@ -6,12 +6,12 @@ class School
 
   def initialize(name)
     @name = name
-    @roster = {}
+    @roster = {} #key is grade, value is array of students
   end
 
   def add_student(student, grade)
-    @roster < student
-    @grade = grade
+    @roster[:grade] = student
+
   end
 
 
